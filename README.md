@@ -74,6 +74,13 @@ For 30 days, I will:
 
 ---
 
+### RESULTS
+![DAY 2](./Images/Screenshot%20(307).png)
+![DAY 2](./Images/Screenshot%20(308).png)
+![DAY 2](./Images/Screenshot%20(309).png)
+
+---
+
 ## 🌐 Connect with Me
 
 - Email: [@EnijeshikuEniola] (eenijeshiku@gmail.com)
