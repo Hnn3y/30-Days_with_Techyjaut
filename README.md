@@ -51,4 +51,4 @@ For 30 days, I will:
 ---
 
 # Let’s build something great, one day at a time.
-## > “Discipline equals freedom.” — Jocko Willink
+> “Discipline equals freedom.” — Jocko Willink
