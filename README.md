@@ -1,6 +1,17 @@
 # 30-Days_with_Techyjaut 🚀
 
-Welcome to **30-Days_with_Techyjaut**, a focused learning journey and daily project log for the month of **June 2025**, dedicated to sharpening my skills in **Backend Development** and **CAD Design**. This challenge is inspired by my commitment to build robust software solutions and mechanical systems, and to document my consistent growth in these core domains.
+Welcome to 30-Days_with_Techyjaut — a structured, purpose-driven learning sprint for the month of June 2025. This repository documents my commitment to mastering two high-impact technical domains:
+Backend Development and Computer-Aided Design (CAD).
+
+This challenge represents more than daily practice — it's a strategic journey to:
+
+Engineer scalable backend systems using modern development stacks.
+
+Model precise, production-ready mechanical components with industry-standard CAD tools.
+
+Every day of this challenge is intentionally designed to bridge software logic and mechanical design thinking, with the end goal of building solutions that are not only functional but manufacturable — a synergy crucial for full-stack system builders and product engineers.
+
+Whether you're a fellow developer, aspiring engineer, or tech enthusiast, this repository offers a transparent look into daily problem-solving, technical growth, and real-world applications of backend and CAD skills.
 
 ---
 
@@ -54,7 +65,14 @@ For 30 days, I will:
 ## 🌐 Connect with Me
 
 - GitHub: [@ENIJESHIKU ELIJAH ENIOLA](https://github.com/Hnn3y)
+- LinkedIn: [linkedin.com/in/techyjaut](#)
+- Twitter: [@techyjaut](#)
 
+---
+
+## 🌐 Connect with TechyJaunt
+
+- GitHub: [@TechyJaunt](#)
 - LinkedIn: [linkedin.com/in/techyjaut](#)
 - Twitter: [@techyjaut](#)
 
