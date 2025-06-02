@@ -76,18 +76,18 @@ For 30 days, I will:
 
 ## 🌐 Connect with Me
 
-- GitHub: [@ENIJESHIKU ELIJAH ENIOLA](https://github.com/Hnn3y)
-- LinkedIn: [linkedin.com/in/Enijeshiku Eniola](#)
-- Twitter: [@Enijeshiku Eniola](#)
+- Email: [@EnijeshikuEniola] (eenijeshiku@gmail.com)
+- GitHub: [@Hnn3y](https://github.com/Hnn3y)
+- LinkedIn: [linkedin.com/in/Enijeshiku Eniola](https://www.linkedin.com/in/enijeshiku-eniola/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B5E2WXqpySne6iEjTlwgwIw%3D%3D)
+- Twitter: [@techyjaut](https://x.com/Henneiiy)
 
 ---
 
 ## 🌐 Connect with TechyJaunt
 
 - GitHub: [@TechyJaunt](#)
-- LinkedIn: [linkedin.com/in/techyjaunt](#)
-- Twitter: [@techyjaunt](#)
-
+- LinkedIn: [linkedin.com/in/TechyJaunt](https://www.linkedin.com/company/techyjaunt/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B0Awn7GMFR5%2Bfb87beXF4%2Bg%3D%3D)
+- Twitter: [@Techyjaunt](https://x.com/TechyJaunt)
 ---
 
 # Let’s build something great, one day at a time.
