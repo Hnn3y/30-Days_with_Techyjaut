@@ -1,6 +1,6 @@
-# 30-Days_with_Techyjaut 🚀
+# 30-Days_with_Techyjaunt 🚀
 
-Welcome to 30-Days_with_Techyjaut — a structured, purpose-driven learning sprint for the month of June 2025. This repository documents my commitment to mastering two high-impact technical domains:
+Welcome to 30-Days_with_Techyjaunt — a structured, purpose-driven learning sprint for the month of June 2025. This repository documents my commitment to mastering two high-impact technical domains:
 Backend Development and Computer-Aided Design (CAD).
 
 This challenge represents more than daily practice — it's a strategic journey to:
@@ -62,19 +62,31 @@ For 30 days, I will:
 
 ---
 
+## ✅ Progress Tracker
+
+| Day | Task | Tool Used | Status |
+|-----|------|-----------|--------|
+| 01  | Backend Refresher Task | Express, Node.js | ✅ Completed |
+| 02  | Express Server Requests | Express,Node.js, Nodemon | ✅ Completed |
+| 03  | ... | ... | 🕐 ... |
+| 04  | ... | ... | ... |
+| 05  | ... | ... | ... |
+
+---
+
 ## 🌐 Connect with Me
 
 - GitHub: [@ENIJESHIKU ELIJAH ENIOLA](https://github.com/Hnn3y)
 - LinkedIn: [linkedin.com/in/techyjaut](#)
-- Twitter: [@techyjaut](#)
+- Twitter: [@techyjaunt](#)
 
 ---
 
 ## 🌐 Connect with TechyJaunt
 
 - GitHub: [@TechyJaunt](#)
-- LinkedIn: [linkedin.com/in/techyjaut](#)
-- Twitter: [@techyjaut](#)
+- LinkedIn: [linkedin.com/in/techyjaunt](#)
+- Twitter: [@techyjaunt](#)
 
 ---
 
