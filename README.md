@@ -51,5 +51,14 @@ For 30 days, I will:
 
 ---
 
+## 🌐 Connect with Me
+
+- GitHub: [@ENIJESHIKU ELIJAH ENIOLA](https://github.com/Hnn3y)
+
+- LinkedIn: [linkedin.com/in/techyjaut](#)
+- Twitter: [@techyjaut](#)
+
+---
+
 # Let’s build something great, one day at a time.
 > “Discipline equals freedom.” — Jocko Willink
