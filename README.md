@@ -33,7 +33,7 @@ For 30 days, I will:
 ### CAD
 - **Primary Software**: SolidWorks / Fusion 360 / AutoCAD (depending on availability)
 - **Formats**: `.SLDPRT`, `.STEP`, `.STL`, `.F3D`
-- GitHub: [@Techyjaut](https://github.com/Hnn3y/SolidWorks_Repo.git)
+- GitHub: [@HENNEY`S SOLIDWORKS REPO](https://github.com/Hnn3y/SolidWorks_Repo.git)
 
 ---
 
