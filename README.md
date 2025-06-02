@@ -77,8 +77,8 @@ For 30 days, I will:
 ## 🌐 Connect with Me
 
 - GitHub: [@ENIJESHIKU ELIJAH ENIOLA](https://github.com/Hnn3y)
-- LinkedIn: [linkedin.com/in/techyjaut](#)
-- Twitter: [@techyjaunt](#)
+- LinkedIn: [linkedin.com/in/Enijeshiku Eniola](#)
+- Twitter: [@Enieshiku Eniola](#)
 
 ---
 
