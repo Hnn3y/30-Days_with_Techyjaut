@@ -78,7 +78,7 @@ For 30 days, I will:
 
 - GitHub: [@ENIJESHIKU ELIJAH ENIOLA](https://github.com/Hnn3y)
 - LinkedIn: [linkedin.com/in/Enijeshiku Eniola](#)
-- Twitter: [@Enieshiku Eniola](#)
+- Twitter: [@Enijeshiku Eniola](#)
 
 ---
 
