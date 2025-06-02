@@ -67,7 +67,7 @@ For 30 days, I will:
 | Day | Task | Tool Used | Status |
 |-----|------|-----------|--------|
 | 01  | Backend Refresher Task | Express, Node.js | ✅ Completed |
-| 02  | Express Server Requests | Express,Node.js, Nodemon | ✅ Completed |
+| 02  | Express Server HTTP Requests | Express,Node.js, Nodemon | ✅ Completed |
 | 03  | ... | ... | 🕐 ... |
 | 04  | ... | ... | ... |
 | 05  | ... | ... | ... |
