@@ -68,7 +68,7 @@ For 30 days, I will:
 |-----|------|-----------|--------|
 | 01  | Backend Refresher Task | Express, Node.js | ✅ Completed |
 | 02  | Express Server HTTP Requests | Express,Node.js, Nodemon | ✅ Completed |
-| 03  | ... | ... | 🕐 ... |
+| 03  | POSTMAN | Postman, Express, Node.js, Nodemon | 🕐 ... |
 | 04  | ... | ... | ... |
 | 05  | ... | ... | ... |
 
@@ -107,4 +107,4 @@ For 30 days, I will:
 - [The challenge faced was when I tried using nodemon and it gave me errors]
 - [Learn about postman and status codes]
 
--[Day3](./Daily_Logs/day3.md)
+- [Day 3](./Daily_Logs/day3.md)
