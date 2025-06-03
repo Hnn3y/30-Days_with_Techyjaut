@@ -13,7 +13,6 @@
 
 ### ✅ What I Learned
 - 🌐 Understood how **HTTP requests** work in backend communication.
-- 🧪 Explored **Postman** for API testing and examined **status codes**.
 
 ### ⚠️ Challenges Faced
 - ⚙️ Encountered errors when using **Nodemon** — had to debug and research possible solutions.

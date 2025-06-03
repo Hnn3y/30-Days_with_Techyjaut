@@ -12,11 +12,50 @@
 ## 🧠 Summary of the Day
 
 ### ✅ What I Learned
-- 🌐 Understood how **HTTP requests** work in backend communication.
-- 🧪 Explored **Postman** for API testing and examined **status codes**.
+####  HTTP Methods & Status Codes
+- 1. GET
+Purpose: Retrieve data
+Common Status Codes:
+
+Code	Meaning
+200 OK	Request successful, data returned
+204 No Content	Successful but no data returned
+404 Not Found	Resource doesn't exist
+500 Internal Server Error	Server failed to process
+
+- 2. POST
+Purpose: Create a new resource
+Common Status Codes:
+
+Code	Meaning
+201 Created	Resource successfully created
+400 Bad Request	Client sent invalid data
+409 Conflict	Resource already exists (duplicate)
+500 Internal Server Error	Server failed to create
+
+- 3. PUT
+Purpose: Update/replace an existing resource
+Common Status Codes:
+
+Code	Meaning
+200 OK	Resource successfully updated
+204 No Content	Updated, but no content returned
+400 Bad Request	Malformed data
+404 Not Found	Resource doesn’t exist
+500 Internal Server Error	Update failed
+
+- 4. DELETE
+Purpose: Delete a resource
+Common Status Codes:
+
+Code	Meaning
+200 OK	Deleted successfully (sometimes includes response data)
+204 No Content	Deleted successfully (no data returned)
+404 Not Found	Resource not found
+500 Internal Server Error	Deletion failed
 
 ### ⚠️ Challenges Faced
-- ⚙️ Encountered errors when using **Nodemon** — had to debug and research possible solutions.
+-  HAD TO LEARN ABOUT THE STATUS CODES AND HOW GET, POST, PUT, DELETE WORKS
 
 ---
 
