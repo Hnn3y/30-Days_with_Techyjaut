@@ -95,5 +95,9 @@ For 30 days, I will:
 
 ---
 
-- [Day 2](./Daily_Logs/day2.md)
-- [Day 3](./Daily_Logs/day3.md)
+## 📅 Daily Logs
+
+- ✅ [Day 2 – Setting Up & Exploring Basics](./Daily_Logs/day2.md)
+- 🚀 [Day 3 – Postman + CAD Design Sprint](./Daily_Logs/day3.md)
+
+---
