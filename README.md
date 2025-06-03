@@ -74,13 +74,6 @@ For 30 days, I will:
 
 ---
 
-### RESULTS
-![DAY 2](./Images/Screenshot%20(307).png)
-![DAY 2](./Images/Screenshot%20(308).png)
-![DAY 2](./Images/Screenshot%20(309).png)
-
----
-
 ## 🌐 Connect with Me
 
 - Email: [@EnijeshikuEniola] (eenijeshiku@gmail.com)
@@ -99,3 +92,17 @@ For 30 days, I will:
 
 # Let’s build something great, one day at a time.
 > “Discipline equals freedom.” — Jocko Willink
+
+---
+
+# Day 2 - [2ND JULY, 2025]
+
+## Proof Images
+![Image 1](./Images/Screenshot%20(307).png)
+![Image 2](./Images/Screenshot%20(308).png)
+![Image 3](./Images/Screenshot%20(309).png)
+
+## Summary
+- [I learnt about http requests and they work in backend communication]
+- [The challenge faced was when I tried using nodemon and it gave me errors]
+- [Learn about postman and status codes]
