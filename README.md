@@ -106,3 +106,5 @@ For 30 days, I will:
 - [I learnt about http requests and they work in backend communication]
 - [The challenge faced was when I tried using nodemon and it gave me errors]
 - [Learn about postman and status codes]
+
+-[Day3](./Daily_Logs/day3.md)
