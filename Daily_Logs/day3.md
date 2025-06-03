@@ -13,7 +13,7 @@
 
 ### ✅ What I Learned
 ####  HTTP Methods & Status Codes
-- 1. GET
+1. GET
 Purpose: Retrieve data
 Common Status Codes:
 
