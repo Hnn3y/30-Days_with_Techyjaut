@@ -23,7 +23,7 @@ Code	Meaning
 404 Not Found	Resource doesn't exist
 500 Internal Server Error	Server failed to process
 
-- 2. POST
+ 2. POST
 Purpose: Create a new resource
 Common Status Codes:
 
@@ -33,7 +33,7 @@ Code	Meaning
 409 Conflict	Resource already exists (duplicate)
 500 Internal Server Error	Server failed to create
 
-- 3. PUT
+ 3. PUT
 Purpose: Update/replace an existing resource
 Common Status Codes:
 
@@ -44,7 +44,7 @@ Code	Meaning
 404 Not Found	Resource doesn’t exist
 500 Internal Server Error	Update failed
 
-- 4. DELETE
+ 4. DELETE
 Purpose: Delete a resource
 Common Status Codes:
 
@@ -63,6 +63,6 @@ Code	Meaning
 - Always check Node and Nodemon versions.
 - GET/POST methods are essential to backend logic.
 - Postman is a powerful tool for verifying backend endpoints.
-
+- Dont forget to update your postman!!!
 ---
 
