@@ -56,6 +56,7 @@ Code	Meaning
 
 ### ⚠️ Challenges Faced
 -  HAD TO LEARN ABOUT THE STATUS CODES AND HOW GET, POST, PUT, DELETE WORKS
+- 
 
 ---
 

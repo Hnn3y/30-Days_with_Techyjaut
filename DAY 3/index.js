@@ -48,6 +48,10 @@ app.put("/page1", (req, res) => {
     res.sendStatus(200);
 });
 
+app.delete("/user", (req, res) => {
+  res.sendStatus(300);
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
 });
