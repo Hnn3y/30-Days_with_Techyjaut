@@ -1,14 +1,21 @@
 import express from "express";
-import morgan from "morgan";
+import bodyParser from "body-parser";
+
+import { dirname } from "path";
+import { fileURLToPath } from "url";
+const _dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 const PORT= 3000;
 
-app.use(morgan("tiny"));
+app.use(bodyParser.urlencoded({ extended: true}));
 
 app.get("/", (req, res) => {
-    res.send(` <h1>🚀 Backend is Live!</h1>
-    <p>Your Express server is running and serving HTML!</p>`);
+    res.sendFile(_dirname + "/public/index.html");
+});
+
+app.post("/submit", (req, res) => {
+    console.log(req.body)
 });
 
 app.listen(PORT, () => {
