@@ -60,12 +60,25 @@ app.post('/fullname', (req, res) => {
 
 ```
 ### ⚠️ Challenges Faced
-- Learning about middlewares and testing was different 
-- 
+- Learning about middlewares and testing was different from regular frontend tasks.
+
+- Understanding how middleware works in the request-response cycle took time.
+
+- Faced errors related to missing files when using res.sendFile() or express.static().
+
+- Needed to understand how to structure logic and when to use global vs. route-specific middleware.
+
+- Initially struggled with debugging user role logic and banned user filters. 
 
 ---
 
 ## 🚀 Key Takeaways
-- 
+- Learned how to write global middleware for logging, user tracking, and access control.
+
+- Built a role-based access system using custom middleware, enhancing backend security.
+
+- Gained hands-on experience handling file paths, errors, and static file serving in Express.
+- Understood how to separate concerns in backend architecture
+
 ---
 
