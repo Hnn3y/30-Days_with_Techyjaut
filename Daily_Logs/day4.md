@@ -28,7 +28,7 @@ Handling errors,
 
 Serving static files
 
-Structure of middleware:
+#### Structure of middleware:
 
 ``` js
 Copy 
