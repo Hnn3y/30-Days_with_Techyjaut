@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Middleware</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Learn About Middleware  Middleware ⚙️</h1>
+        <p>This page is a hands-on guide to understanding and writing your own middleware. Follow the concepts and complete the exercises to solidify your knowledge.</p>
+
+        <hr>
+
+        <div class="concept">
+            <h2>What is Middleware?</h2>
+            <p>In the context of web servers, **middleware** refers to functions that execute during the lifecycle of a request to the server. Think of it as a series of steps or checkpoints a request must go through before a final response is sent back to the client.</p>
+            <p>Each middleware function has access to the request object, the response object, and the next middleware function in the application’s request-response cycle. This "next" function is a convention, often named <code>next</code>, that passes control to the subsequent middleware.</p>
+            <p>Common tasks handled by middleware include:</p>
+            <ul>
+                <li>Logging request details (e.g., URL, timestamp, IP address).</li>
+                <li>Authenticating users to protect certain routes.</li>
+                <li>Parsing request bodies (e.g., JSON, form-data).</li>
+                <li>Setting response headers (e.g., <code>Content-Type</code>).</li>
+                <li>Handling errors in a centralized way.</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="concept">
+            <h2>The Middleware Signature</h2>
+            <p>A typical middleware function has a specific structure or "signature." In frameworks like Express.js (a popular Node.js framework), it looks like this:</p>
+            <pre><code>function myMiddleware(req, res, next) {
+    // Middleware logic goes here...
+    next(); // Pass control to the next middleware
+}</code></pre>
+            <ul>
+                <li><code>req</code>: The HTTP request object.</li>
+                <li><code>res</code>: The HTTP response object.</li>
+                <li><code>next</code>: A function to call to pass control to the next middleware in the stack.</li>
+            </ul>
+            <p><strong>Crucially</strong>, if you don't call <code>next()</code>, the request will be left "hanging," and the client will time out. The only exception is when a middleware function sends a response itself (e.g., <code>res.send()</code> or <code>res.json()</code>), which concludes the cycle.</p>
+        </div>
+
+        <hr>
+
+        <div class="exercise">
+            <h2>✍️ Your Turn: Write Your Own Middleware</h2>
+            <p>Let's apply these concepts by writing a few middleware functions. Use the text areas below to write your code.</p>
+
+            <div class="exercise-box">
+                <h3>Exercise 1: Request Logger</h3>
+                <p>Create a middleware function named <code>requestLogger</code> that logs the HTTP method (<code>req.method</code>) and the URL (<code>req.url</code>) of every incoming request to the console. Don't forget to call <code>next()</code> at the end!</p>
+                <textarea id="loggerMiddleware" rows="8" style="width: 100%; font-family: monospace; font-size: 14px;" placeholder="function requestLogger(req, res, next) {&#10;    // Your code here&#10;}"></textarea>
+            </div>
+
+            <div class="exercise-box">
+                <h3>Exercise 2: Authentication Check</h3>
+                <p>Write a middleware function called <code>isAuthenticated</code>. This function should check for a specific header, for example, <code>Authorization</code>. If the header's value is <code>'mysecrettoken'</code>, it should call <code>next()</code>. Otherwise, it should end the request by sending a <strong>403 Forbidden</strong> status code and a JSON error message.</p>
+                <textarea id="authMiddleware" rows="10" style="width: 100%; font-family: monospace; font-size: 14px;" placeholder="function isAuthenticated(req, res, next) {&#10;    // Your code here&#10;}"></textarea>
+            </div>
+
+            <div class="exercise-box">
+                <h3>Exercise 3: Add a Custom Header</h3>
+                <p>Create a middleware function named <code>addTimestampHeader</code>. This function should add a custom header to the response called <code>X-Request-Time</code> with the current timestamp (you can use <code>Date.now()</code>). After setting the header, it should pass control to the next function.</p>
+                <textarea id="headerMiddleware" rows="8" style="width: 100%; font-family: monospace; font-size: 14px;" placeholder="function addTimestampHeader(req, res, next) {&#10;    // Your code here&#10;}"></textarea>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="concept">
+            <h2>Middleware Chaining</h2>
+            <p>The real power of middleware comes from chaining them together. A web application can have a stack of middleware that a request flows through sequentially. This creates a clean, modular way to handle different aspects of a request.</p>
+            <p>For example, to implement the middleware you wrote above, a server might set them up like this:</p>
+            <pre><code>// 1. First, log the request
+app.use(requestLogger);
+
+// 2. Next, check authentication for protected routes
+app.use('/admin', isAuthenticated); 
+
+// 3. Add a timestamp to all responses
+app.use(addTimestampHeader);
+
+// 4. Finally, handle the actual route
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+});
+
+app.get('/admin', (req, res) => {
+    res.send('Welcome to the admin panel!');
+});
+</code></pre>
+            <p>In this setup, a request to <code>/</code> would go through <code>requestLogger</code> and <code>addTimestampHeader</code> before hitting the final route handler. A request to <code>/admin</code> would go through all three middleware functions.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
