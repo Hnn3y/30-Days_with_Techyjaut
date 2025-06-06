@@ -21,7 +21,7 @@
 - Got familiar with handling `req.body` using:
   ```js
   app.use(express.urlencoded({ extended: true }));
-```
+  
 >“Every great system has a gatekeeper. Middleware is mine. And I’m mastering it.”
 — HENNEiY
 
