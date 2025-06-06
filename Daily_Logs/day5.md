@@ -21,7 +21,7 @@
 - Got familiar with handling `req.body` using:
   ```js
   app.use(express.urlencoded({ extended: true }));
-  
+
 >“Every great system has a gatekeeper. Middleware is mine. And I’m mastering it.”
 — HENNEiY
 
@@ -31,8 +31,6 @@ Spent a major part of the day understanding middleware deeply — it’s differe
 Faced syntax confusion with next() and function call orders.
 
 Debugged routing and static file errors (res.sendFile paths).
-
-Had difficulty writing logic to detect user roles (Admin vs Guest vs Banned).
 
 Realized backend thinking requires flow control mindset, not just visual layout.
 
