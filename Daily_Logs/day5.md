@@ -13,7 +13,7 @@
 
 ### ✅ What I Learned
 
-#### 📌 Middleware in Express.js – My CEO Mindset Takeaway
+#### 📌 Middleware in Express.js
 - Middleware is not just a function — it's a **gatekeeper**, a **watchtower**, and a **security system** in the backend workflow.
 - It operates **between** when a request hits the server and before a response returns — think of it as **middleware intelligence** in the pipeline.
 - I explored both **global middleware** (runs on every request) and **route-specific middleware** (only when hitting a route).
