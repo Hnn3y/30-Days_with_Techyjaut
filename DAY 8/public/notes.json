@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "content": "HTML is easy",
+    "date": "2025-06-01T17:30:31.098Z",
+    "important": true
+  },
+  {
+    "id": 2,
+    "content": "Browser can execute only JavaScript",
+    "date": "2025-06-02T18:39:34.091Z",
+    "important": false
+  },
+  {
+    "id": 3,
+    "content": "GET and POST are the most important HTTP methods",
+    "date": "2025-06-03T19:20:14.298Z",
+    "important": true
+  },
+  {
+    "id": 4,
+    "content": "Single-page apps run in the browser",
+    "date": "2025-06-04T20:15:45.212Z",
+    "important": false
+  }
+]
