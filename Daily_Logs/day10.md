@@ -48,4 +48,11 @@ Multiple parameters are separated by an ampersand (&).
 Example: To find a social activity for two people, you would make a GET request to https://www.boredapi.com/api/filter?type=social&participants=2.
 type=social is the first query parameter.
 participants=2 is the second query parameter
+
+- Path Parameters
+A path parameter is a variable part of the URL path used to identify and retrieve a specific resource. Unlike query parameters which filter a list, path parameters point directly to a single item.
+
+- Structure: It is embedded directly within the URL path, often representing a unique ID.
+Example: To get a specific activity with the key 5914292, the request URL would be https://www.boredapi.com/api/activity/5914292. Here, 5914292 is the path parameter that identifies the exact activity to retrieve.
+
 ---
