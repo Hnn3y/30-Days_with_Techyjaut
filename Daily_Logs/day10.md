@@ -22,5 +22,30 @@ gRPC
 REST (Representational State Transfer)
 For web development, REST is the most popular and widely used style. RESTful APIs use standard HTTP requests (GET, POST, PUT, PATCH, DELETE) to interact with data.
 
-Practical Demonstration
+- Practical Demonstration
  How to use an API with a tool called Postman. The example uses the "Where the ISS at?" API to make a GET request to find the real-time latitude and longitude of the International Space Station. This location data is then pasted into Google Maps to pinpoint exactly where the ISS is currently located over the Earth.
+
+ ---
+
+ ### ⚠️ Challenges Faced
+- Using an api was different from using a normal get,post commands
+
+---
+## 🚀 Key Takeaways
+- API Endpoints
+An endpoint is a specific URL where an API can be accessed. It represents a particular route on the API provider's server that corresponds to a specific function or set of data.
+
+- Structure: It's the part of the URL that comes after the base address.
+Example: In the URL https://www.boredapi.com/api/random, /random is the endpoint used to get a random activity. Another endpoint, /filter, is used for filtering activities.
+
+- Query Parameters
+Query parameters are used to customize a request, often for filtering, sorting, or searching. They are key-value pairs added to the end of the URL.
+
+- Structure:
+The query string starts with a question mark (?).
+Each parameter is a key-value pair, like key=value.
+Multiple parameters are separated by an ampersand (&).
+Example: To find a social activity for two people, you would make a GET request to https://www.boredapi.com/api/filter?type=social&participants=2.
+type=social is the first query parameter.
+participants=2 is the second query parameter
+---
